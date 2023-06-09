@@ -13,15 +13,22 @@ body {
 }
 
 /* nav-bar */
-
+.color-purple{
+  color: #331b3b;
+}
 .main-page {
     max-width: 2000px;
     margin: 0 auto;
   position: relative;
   /* height: 100vh; */
   margin-bottom: 100px;
+color: rgb(255, 255, 255);
 }
 .nav-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
   display: flex;
   justify-content: space-between;
   /* margin-top: 40px; */
@@ -30,6 +37,8 @@ body {
   padding-top: 30px;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /* border: 1px solid red */
+  backdrop-filter: blur(3px);
+  background:rgba(51,27,59,0.2);
 }
 .nav-left {
   max-width: 352px;
