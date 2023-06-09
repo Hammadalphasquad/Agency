@@ -378,12 +378,12 @@ margin-top: 10px;
    letter-spacing: 2%;
    padding: 16px 40px;
    position: relative;
-   top: 1px;
+   top:2px;
    right: 5px;
 }
 .six-por-input input{
     padding: 17px 40px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     background-color: #000000;
     color: #FFFFFF;
 }
